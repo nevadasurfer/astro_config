@@ -15,6 +15,10 @@ return {
 
   -- == Examples of Overriding Plugins ==
 
+  {
+    "zbirenbaum/copilot-cmp",
+    config = function() require("copilot_cmp").setup() end,
+  },
   -- customize alpha options
   {
     "goolord/alpha-nvim",
